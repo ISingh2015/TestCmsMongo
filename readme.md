@@ -43,9 +43,9 @@ To Run with Java type the following
 ````$xslt
 java -jar jarfileName.jar
 ````
-You will see the application up on port 80. Browse the application using a web browser open chrome browser and navigate to http://localhost:80
+You will see the application up on port 8080. Browse the application, open chrome browser and navigate to http://localhost:8080
 
-Add Sample Audio files to HillGreensDB using Mongo DB CLI as below
+Add Sample Audio files to <MongoDBName> using Mongo DB CLI as below
 ````$xslt
-mongofiles -d HillGreensDb put song.mp3
+mongofiles -d <MongoDBName> put song.mp3
 ````
